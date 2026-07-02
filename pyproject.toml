@@ -1,0 +1,10 @@
+[project]
+name = "multi-agent-workflow-system"
+version = "0.1.0"
+description = "Planner executor validator multi-agent workflow system."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
